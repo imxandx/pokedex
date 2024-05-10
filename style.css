@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Kanit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:  rgb(236, 236, 126);
+}
+
+.main {
+    margin: 20px auto;
+    max-width: 700px;
+    background-color: #f2f2f2f2;
+    padding: 30px 2%;
+    border-radius: 8px;
+    box-shadow: 10px 10px 12px #696969;
+}
+
+.main h2 {
+    text-align: center;
+    color: #ef5350;
+    font-size: 45px;
+    box-shadow: 6px 6px 8px #ccc;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Bungee', sans-serif;
+}
+
+.main input {
+    width: 70%;
+    height: 40px;
+    padding-left: 11px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    box-shadow: 6px 6px 8px #696969;
+    font-family: 'Kanit', sans-serif;
+}
+
+.pokemon-boxes {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pokemon-box {
+    border-radius: 10px;
+    width: 29%;
+    margin: 20px 2%;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 6px 6px 8px #696969;
+}
+
+.pokemon-box img {
+    width: 100%;
+}
+
+.pokemon-box p {
+    color: #000;
+    font-size: 21px;
+    text-align: center;
+    margin: 8px;
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .pokemon-box{
+        width: 100%; 
+        text-align: center;
+    }
+
+    .pokemon-box img {
+        max-width: 300px;
+    }
+}
